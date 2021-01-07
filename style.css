@@ -1,0 +1,42 @@
+.center {
+  text-align: center;
+}
+
+body {
+  padding: 2%;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+.player-dice {
+  width: 10%;
+}
+
+.table-d {
+  margin: 3%;
+}
+.table-dice {
+  width: 15%;
+}
+
+.game-btn {
+  text-align: center;
+}
+
+.winner h2 {
+  font-family: "Knewave", cursive;
+  font-size: 5rem;
+}
+
+.score1,
+.score2 {
+  font-size: 2rem;
+}
