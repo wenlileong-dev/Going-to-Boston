@@ -84,7 +84,7 @@ function displayDice() {
   $(".table-dice").remove();
   playerTableA.forEach((dice) => {
     $(".table-d").append(
-      `<img class="table-dice" src="/diceGame/dice-${dice}.svg" alt="dice 6" />`
+      `<img class="table-dice" src="./diceGame/dice-${dice}.svg" alt="dice 6" />`
     );
   });
   if (playerTable === 1 && player1End === 0) {
@@ -104,13 +104,13 @@ function playerDice(n) {
   });
   if (n === 1) {
     $(".player1-dice").append(
-      `<img class="player-dice" src="/diceGame/dice-${max}.svg" alt="dice 6" />`
+      `<img class="player-dice" src="./diceGame/dice-${max}.svg" alt="dice 6" />`
     );
     player1Score += max;
     $(".score1").text(player1Score);
   } else {
     $(".player2-dice").append(
-      `<img class="player-dice" src="/diceGame/dice-${max}.svg" alt="dice 6" />`
+      `<img class="player-dice" src="./diceGame/dice-${max}.svg" alt="dice 6" />`
     );
     player2Score += max;
     $(".score2").text(player2Score);
